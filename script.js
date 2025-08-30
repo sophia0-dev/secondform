@@ -5,6 +5,7 @@ let password = document.getElementById('password');
 let username = document.getElementById('username');
 let form = document.getElementById("form");
 
+
 //button turns blue on click and input border turns blue too
 button.addEventListener("click", function modifyFunction (){
     button.style.backgroundColor = "rgb(36, 89, 249)";
