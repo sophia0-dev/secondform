@@ -1,9 +1,23 @@
 let button = document.getElementById("btn");
-let input = document.getElementsByTagName("input");
-let email = document.getElementById('email');
-let password = document.getElementById('password');
-let username = document.getElementById('username');
 let form = document.getElementById("form");
+
+function store () {
+    let email = document.getElementById('email');
+    let password = document.getElementById('password');
+    let username = document.getElementById('username');
+
+    //retrieving the inputs
+    username.value;
+    password.value;
+    email.value;
+
+
+    console.log('The username is ',username);
+    console.log('The username is ',password);
+    console.log('The username is ', email);
+
+
+}
 
 
 //button turns blue on click and input border turns blue too
@@ -22,4 +36,6 @@ button.addEventListener("click", function modifyFunction (){
 
 form.addEventListener("submit", function modifyFunction2 (){
     button.style.backgroundColor = "rgb(129, 207, 12)";
+
+    
 });
